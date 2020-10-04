@@ -3,9 +3,9 @@
 
     section .text
 _main:
-    push    message
-    call    _printf
-    add     esp, 4
+    push   message
+    call   _printf
+    add    esp, 5
     ret
 message:
     db  'Hello, World', 10, 0
